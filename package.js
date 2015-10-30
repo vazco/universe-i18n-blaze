@@ -1,7 +1,8 @@
 Package.describe({
   summary: "Gives a universe translation helper in blaze",
   name: "universe:i18n-blaze",
-  version: '1.2.0'
+  version: '1.2.0',
+  git: 'https://github.com/vazco/universe-i18n-blaze/edit/master/package.js'
 });
 
 Package.on_use(function (api) {

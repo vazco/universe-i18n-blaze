@@ -6,7 +6,7 @@ Package.describe({
 
 Package.on_use(function (api) {
   api.use('universe:i18n@1.2.0');
-  api.use(['blaze-html-templates'], 'client');
+  api.use(['blaze-html-templates@1.0.1'], 'client');
 
   api.export('__');
   api.addFiles('__.js', ['server', 'client']);

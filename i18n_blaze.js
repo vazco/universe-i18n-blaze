@@ -1,4 +1,8 @@
 Template.registerHelper('__', function (...args) {
+    const kw = args.pop();
+    if (typeof args[args.length-1] === 'string') {
+        args.push(kw.hash);
+    }
     const t = args[0] || '';
     if (t[0] === '.') {
         args.shift();

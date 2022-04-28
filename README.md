@@ -2,6 +2,8 @@
     <a href="https://github.com/vazco">vazco</a>/Universe i18n Blaze
 </h1>
 
+#### _[Deprecated] This project will be longer be maintained. Blaze integration was moved to the main package - [meteor-universe-i18n](https://github.com/vazco/meteor-universe-i18n/#integration-with-blaze)._
+
 &nbsp;
 
 Provides translation helper and global variable `__` that are reactive ( in Meteor way )  
